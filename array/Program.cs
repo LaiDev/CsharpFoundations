@@ -12,3 +12,7 @@ colors[2] = "Yellow";
 Console.WriteLine(colors[0]);
 Console.WriteLine(colors[1]);
 Console.WriteLine(colors[2]);
+
+//Reassign values
+colors[1] = "Purple";
+Console.WriteLine(colors[1]);
