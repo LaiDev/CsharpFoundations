@@ -16,3 +16,10 @@ Console.WriteLine(colors[2]);
 //Reassign values
 colors[1] = "Purple";
 Console.WriteLine(colors[1]);
+
+//Initalize an array
+//You can initialize an array during declaration just like you would a regular variable
+String[] newColors = { "Orange", "Green", "Pink" };
+
+Console.WriteLine(newColors[1]);
+Console.WriteLine($"In the new array, there are {newColors.Length} elements.");
