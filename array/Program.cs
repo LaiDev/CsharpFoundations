@@ -23,3 +23,20 @@ String[] newColors = { "Orange", "Green", "Pink" };
 
 Console.WriteLine(newColors[1]);
 Console.WriteLine($"In the new array, there are {newColors.Length} elements.");
+
+//Foreach Statement
+
+foreach (string color in newColors)
+{
+    Console.WriteLine(color);
+}
+
+int[] numbers = {23, 335, 234, 456, 29};
+int total = 0;
+
+foreach (int number in numbers)
+{
+    total += number;
+}
+
+Console.WriteLine($"Adding all the numbers together gives you {total}!");
