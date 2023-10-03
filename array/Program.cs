@@ -7,3 +7,8 @@ String[] colors = new string[3];
 colors[0] = "Blue";
 colors[1] = "Red";
 colors[2] = "Yellow";
+
+//Retrieve Values from array elements
+Console.WriteLine(colors[0]);
+Console.WriteLine(colors[1]);
+Console.WriteLine(colors[2]);
